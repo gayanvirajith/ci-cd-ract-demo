@@ -17,6 +17,6 @@ phases:
 artifacts:
   files:
     - "**/*"
-  name: react-app-$(date +%s) 
+  name: react-app
   discard-paths: no
   base-directory: build

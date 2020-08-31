@@ -14,6 +14,7 @@ phases:
     commands:
       - echo Building...
       - npm run build
+      - cp appspec.yml build/
 artifacts:
   files:
     - "**/*"

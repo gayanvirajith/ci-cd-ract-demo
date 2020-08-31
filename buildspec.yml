@@ -15,6 +15,7 @@ phases:
       - echo Building...
       - npm run build
       - cp appspec.yml build/
+      - cp -r codedeploy build/
 artifacts:
   files:
     - "**/*"

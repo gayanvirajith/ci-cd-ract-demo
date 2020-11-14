@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-			New build!
+			<div class="App-header">
+				New build!
+			</div>
     </div>
   );
 }
